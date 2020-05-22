@@ -1,0 +1,3 @@
+import random
+tarot_list = ['The Fool(0)', 'The Magician(1)', 'The High Priestess(2)', 'The Empress(3)', 'The Emperor(4)', 'The Hierophant(5)', 'The Lovers(6)', 'The Chariot(7)', 'Strength(8)', 'The Hermit(9)', 'Wheel of Fortune(10)', 'Justice(11)', 'The Hanged Man(12)', 'Death(13)', 'Temperance(14)', 'The Devil(15)', 'The Tower(16)', 'The Star(17)', 'The Moon(18)', 'The Sun(19)', 'Judgment(20)', 'The World(21)']
+print(random.choice(tarot_list))
