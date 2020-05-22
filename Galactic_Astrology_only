@@ -1,0 +1,65 @@
+day = int(input("Enter the Day of the month of your birth (eg. 14, 26, 2): "))
+month = input("Enter month of birth (e.g. march, july etc): ")
+
+if month == 'december':
+    if (day < 17):
+        astro_sign = 'WoW! You are the new sign, Ophiuchus!'
+    else:
+        astro_sign = 'Sweet Talking Sagittarius'
+elif month == 'january':
+    if (day < 18):
+        astro_sign = 'Sassy Sagittarius'
+    else:
+        astro_sign = 'Corporate Capricorn'
+elif month == 'february':
+    if (day < 15):
+        astro_sign = 'Call the Shots Capricorn'
+    else:
+        astro_sign = 'Airy Aquarius'
+elif month == 'march':
+    if (day < 11):
+        astro_sign = 'Aimlessly Aquarius'
+    else:
+        astro_sign = 'Peculiar Pisces'
+elif month == 'april':
+    if (day < 18):
+        astro_sign = 'Practically Perfect Pisces'
+    else:
+        astro_sign = 'Allusive Aries'
+elif month == 'may':
+    if (day < 13):
+        astro_sign = 'Always Right Aries'
+    else:
+        astro_sign = 'Tolerant Taurus'
+elif month == 'june':
+    if (day < 19):
+        astro_sign = 'Taurus the Tank'
+    else:
+        astro_sign = 'Golden Gemini'
+elif month == 'july':
+    if (day < 21):
+        astro_sign = 'Great Mate Gemini'
+    else:
+        astro_sign = 'Comforting Cancer'
+elif month == 'august':
+    if (day < 9):
+        astro_sign = 'Can be Crabby Cancer'
+    else:
+        astro_sign = 'Lean on Leo'
+elif month == 'september':
+    if (day < 15):
+        astro_sign = 'Leading Leo'
+    else:
+        astro_sign = 'Virtuous Virgo'
+elif month == 'october':
+    if (day < 30):
+        astro_sign = 'Virgin (my arse) Virgo'
+    else:
+        astro_sign = 'Loving Libra'
+elif month == 'november':
+    if (day < 22):
+        astro_sign = 'Liberal Libra'
+    else:
+        astro_sign = 'Sophisticated and Sexiest of all Scorpio'
+
+print("Your Galactic Astrological sign is :",astro_sign)
